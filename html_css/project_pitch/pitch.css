@@ -1,0 +1,78 @@
+body {
+    font-family: 'Helvetica', 'sans serif';
+    background-color: #508484; 
+}
+
+.menu {
+   border: 1px solid #C5E0D8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menulinks > li {
+    display: inline;
+    margin-right: 50px;
+}
+.menulinks-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menulinks > li:last-of-type {
+  margin-right: 0;
+}
+a:link,
+a:visited {
+  color: #CEABB1;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/*  http://www.1001fonts.com/travelling-font.html#license. Marked as free for personal and commercial use. Web safe fonts created with font squirrel */
+@font-face {
+    font-family: 'travellingregular';
+    src: url('travelling-webfont.woff2') format('woff2'),
+         url('travelling-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1 {
+    display: flex;
+    justify-content: flex-start;
+    font-family:'travellingregular', 'Helvetica', 'sans serif';
+    font-size: 5em;
+}
+h2 {
+    display: flex;
+    justify-content: flex-start;
+    font-family:'travellingregular', 'Helvetica', 'sans serif';
+    font-size: 4em;
+}
+.about {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.container-block {
+    width: 30%;
+    height: 300px;
+    border: 1px solid #C5E0D8;
+    padding: 10px;
+    margin: 10px;
+    }
+.img-block{
+    display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+}
+/* all colors from coolors font generator, available at https://coolors.co/444545-508484-c5e0d8-c9c9c9-ceabb1 */
