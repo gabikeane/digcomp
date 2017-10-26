@@ -25,7 +25,7 @@ body {
 }
 a:link,
 a:visited {
-  color: #CEABB1;
+  color: #2C4848;
   text-decoration: none;
 }
 a:hover {
@@ -88,7 +88,7 @@ img {
     
     padding: 10px;
     margin: 10px;
-    background-color: #6C464F;
+    background-color: #A1898F;
     border: 5px #404040;
 
 }
@@ -99,13 +99,16 @@ img {
         display: flex;
     justify-content: space-around;
 }
+.skills > p {
+    display: flex;
+}
 div.list {
     width: 30%;
     height: auto;
 
     padding: 10px;
     margin: 10px;
-    background-color: #CEABB1;
+    background-color: #A1898F;
     
 
     }
