@@ -4,7 +4,7 @@ body {
 }
 
 .menu {
-   border: 1px solid #C5E0D8;
+   
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -12,6 +12,8 @@ body {
 .menulinks > li {
     display: inline;
     margin-right: 50px;
+    font-family: 'travellingregular', 'Helvetica', 'sans serif';
+    font-size: 3em;
 }
 .menulinks-container {
   display: flex;
@@ -46,10 +48,14 @@ h1 {
     font-size: 5em;
 }
 h2 {
-    display: flex;
-    justify-content: flex-start;
+
     font-family:'travellingregular', 'Helvetica', 'sans serif';
     font-size: 4em;
+}
+h3 {
+    font-family:'travellingregular', 'Helvetica', 'sans serif';
+    font-size: 3em;
+    color: black;
 }
 .about {
     display: flex;
@@ -58,10 +64,12 @@ h2 {
 }
 .container-block {
     width: 30%;
-    height: 300px;
-    border: 1px solid #C5E0D8;
+    height: auto;
+
     padding: 10px;
     margin: 10px;
+    background-color: #95849B;
+    border: 5px #404040;
     }
 .img-block{
     display: flex;
@@ -72,7 +80,35 @@ h2 {
 }
 
 img {
-    height: 50%;
-    width: 50%;
+    height: 45%;
+    width: 45%;
+    margin: 5px;
 }
-/* all colors from coolors font generator, available at https://coolors.co/444545-508484-c5e0d8-c9c9c9-ceabb1 */
+.interests {
+    
+    padding: 10px;
+    margin: 10px;
+    background-color: #6C464F;
+    border: 5px #404040;
+
+}
+.skills {
+    padding: 10px;
+    margin: 10px;
+    background-color: #6C464F;
+        display: flex;
+    justify-content: space-around;
+}
+div.list {
+    width: 30%;
+    height: auto;
+
+    padding: 10px;
+    margin: 10px;
+    background-color: #CEABB1;
+    
+
+    }
+
+
+/* all colors from coolors font generator, available at https://coolors.co/6C464F-508484-c5e0d8-95849B-ceabb1 */
