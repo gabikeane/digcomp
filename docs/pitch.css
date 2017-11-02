@@ -1,6 +1,6 @@
 body {
     font-family: 'Helvetica', 'sans serif';
-    background-color: #508484; 
+    background-color: #6F9A9A; 
 }
 
 .menu {
@@ -57,18 +57,18 @@ h3 {
     font-size: 3em;
     color: black;
 }
-.about {
+.about, .projects {
     display: flex;
     justify-content: space-around;
     
 }
-.container-block {
+.body-block {
     width: 30%;
     height: auto;
 
     padding: 10px;
     margin: 10px;
-    background-color: #95849B;
+    background-color: #E5C9DA;
     border: 5px #404040;
     }
 .img-block{
@@ -102,15 +102,31 @@ img {
 .skills > p {
     display: flex;
 }
-div.list {
+div.list-block {
     width: 30%;
     height: auto;
-
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
     padding: 10px;
     margin: 10px;
     background-color: #A1898F;
     
 
+    }
+.tool {
+    height: 25%;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    
+}
+.house {
+
+    display: block;
+    text-align: center;
+    padding: 5px;
     }
 
 
